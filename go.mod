@@ -1,4 +1,4 @@
-module github.com/your-org/project-protos
+module github.com/PBGlory/project-protos
 
 go 1.21.13
 
