@@ -1,1 +1,1 @@
-# contracts-and-microservices
+# project-protos
