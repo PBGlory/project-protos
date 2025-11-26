@@ -6,11 +6,13 @@ option go_package = "github.com/your-org/project-protos/proto/user;userpb";
 message User {
   uint32 id    = 1;
   string email = 2;
+  string password = 3;
 }
 
 // Запрос на создание
 message CreateUserRequest {
   string email = 1;
+  string password = 2;
 }
 message CreateUserResponse {
   User user = 1;
@@ -19,6 +21,7 @@ message CreateUserResponse {
 message UpdateUserRequest {
     uint32 id = 1;
     string email = 2;
+    string password = 3;
 }
 message UpdateUserResponse {
     User user = 1;
